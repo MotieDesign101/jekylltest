@@ -1,0 +1,41 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Chaotikum.org
+email: vostand@chaotikum.org
+description: Willkommen beim Chaotikum e.V., wir beschäftigen uns kreativ mit Technik und ihrer Auswirkungen auf die Gesellschaft und engagieren uns eigenverantwortlich und auf unterschiedliche Weise für Informations- und Kommunikationsfreiheit. Wir treffen uns, um an diversen Projekten zu arbeiten, über Themen zu reden, die uns beschäftigen, und vor allem um Spaß zu haben. Jeder kann gerne vorbeikommen! Du kannst hier schauen, ob gerade jemand im Hackerspace, dem Nobreakspace (Nbsp), ist. Mittwochabends treffen wir uns zum wöchentlichen Lübecker Chaostreff, dem perfekten Zeitpunkt, um einfach mal rein zu schnuppern. Wir freuen uns auf neue Gesichter!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: ""
+twitter_username: Chaotikum_eV
+
+#Wichtige Rollen als Variable, damit sie auf der Website nie veralten
+vorsitz1: Linus Lüssing
+vorsitz2: Lukas Ruge
+finanzen: Matthias Schiffer
+kontakt: Matthias Schiffer
+
+paginate: 10
+excerpt_separator: <!--more-->
+
+image: "image.html"
+wikiimage: "https://chaotikum.org/_media"
+ccbync: "<a href='https://creativecommons.org/licenses/by-nc/4.0/de/'>CC BY NC</a>"
+ccbync: "<a href='https://creativecommons.org/licenses/by-sa/3.0/de/'>CC BY SA</a>"
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Gems
+gems: [jekyll-paginate]

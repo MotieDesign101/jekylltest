@@ -1,0 +1,12 @@
+<figure class="image">
+{% if include.base %}
+<img src="{{include.base}}/{{include.url}}" width="{{include.width}}" alt="{{include.caption}}">
+{% else %}
+<img src="{{site.url}}/images/{{include.url}}" alt="{{include.caption}}">
+{% endif %}
+{% if include.caption %}
+<figcaption>{{include.caption}} {{include.copyr}} {{site.title}}</figcaption>
+{% else %}
+<figcaption>{{include.copyr}} {{site.title}}</figcaption>
+{% endif %}
+</figure>

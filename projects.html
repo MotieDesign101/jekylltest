@@ -1,0 +1,53 @@
+---
+layout: default
+title: Projekte
+permalink: /projects/
+---
+<style>
+.thumbnail {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    display: inline-block; /* makes it fit in like an <img> */
+    background-size: cover; /* or contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.transparent{
+  background:rgba(255,255,255,0.5);
+}
+
+.bottom{
+  position: absolute;
+  bottom: 0;
+  width:200px;
+  height: 50px;
+}
+</style>
+
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.categories['project'] %}
+      <li>
+        <div class="project">
+          <div class="postimage">
+            {% if post.image %}
+              <div class=thumbnail style="background-image: url({{site.url}}/images/thumbnails/{{post.image}});">
+                <div class="transparent bottom">
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+                </div>
+              </div>
+            {% else %}
+              <div class=thumbnail style="background-image: url({{site.url}}/images/thumbnails/logo.png);"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></div>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

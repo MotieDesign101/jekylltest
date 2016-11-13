@@ -1,0 +1,124 @@
+---
+layout: default
+---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  spaceopen();
+});
+
+function spaceopen() {
+  //http://nobreakspace.org/status/spaceapi.json
+
+$.get( "http://nobreakspace.org/status/spaceapi.json", function( data ) {
+  console.log(data);
+  if(data.open) {
+    console.log("OPEN");
+    $("#spaceopen").css( "border", "3px solid green" );
+  } else {
+    console.log("CLOSED");
+    $("#spaceopen").css( "border", "3px solid red" );
+  }
+});
+}
+</script>
+<style>
+.thumbnail {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    display: inline-block; /* makes it fit in like an <img> */
+    background-size: cover; /* or contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.thumbnaillicense {
+  position: absolute;
+  bottom: 0;
+  width:200px;
+  height: 20px;
+}
+
+.transparent {
+  background:rgba(255,255,255,0.5);
+}
+
+.blogpost {
+  overflow:auto;
+}
+
+.postimage {
+  float:left;
+  width:200px;
+  font-size: 0.3cm;
+}
+
+.postpreview {
+  float:right;
+  width:500px;
+}
+
+</style>
+
+<div class="home">
+  <div class="blog">
+    <ul class="post-list">
+      {% for post in paginator.posts %}
+      {% if post.categories contains 'blog' %}
+        <li>
+          <div class="blogpost">
+
+            <div class="postimage">
+              {% if post.image %}
+                <div class=thumbnail style="background-image: url({{site.url}}/images/thumbnails/{{post.image}});">
+                  {% if post.imagelicense %}
+                  <div class="thumbnaillicense transparent">
+                    {{post.imagelicense}}
+                  </div>
+                  {% endif %}
+                </div>
+              {% else %}
+                <div class=thumbnail style="background-image: url({{site.url}}/images/thumbnails/logo.png);"></div>
+              {% endif %}
+            </div>
+
+            <div class="postpreview">
+              <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
+
+              <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+              </h2>
+              <span>{{ post.excerpt | strip_html}} <a href={{ post.url }}>more...</a></span><p class="tag">{{post.tag}}</p>
+            </div>
+
+          </div>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    <!-- Pagination links -->
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+      {% else %}
+        <span class="previous">Previous</span>
+      {% endif %}
+      <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      {% else %}
+        <span class="next ">Next</span>
+      {% endif %}
+    </div>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+  </div>
+  <div class="right">
+    <div id="spaceopen">
+    </div>
+  </div>
+</div>

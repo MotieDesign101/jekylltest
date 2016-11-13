@@ -1,0 +1,13 @@
+---
+layout: project
+title:  "MetaNook"
+date:   2016-04-20 00:00:00 +0200
+image: audimax.png
+contact:
+- "@HerrStachel"
+status: produktiv
+categories:
+- project
+tags:
+- metanook  
+---

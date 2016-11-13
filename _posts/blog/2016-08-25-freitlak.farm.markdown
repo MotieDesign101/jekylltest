@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Freitalk N8: Die fARM?"
+date:   2016-08-25 10:38:00 +0200
+categories: 
+- blog
+tags:
+- fARM
+---
+
+Beinahe ein Jahr ist es her, dass einige Menschen wie gern üblich an einem Sonntag Nachmittag im Space zusammen saßen und darüber philosophierten, was man nicht alles schönes mit SoCs, wie beispielsweise dem bekanntesten Vertreter, dem Raspberry Pi, anstellen kann. Dabei stellte sich heraus, dass doch tatsächlich manche von uns zu Hause solch einen kleinen Rechner neben ihrem DSL Router liegen haben, um ihn als Server alltägliche Aufgaben, wie zum Beispiel das Hosten einer CalDAV Anwendung zu innerfamiliären Kommunikation, bewältigen zu lassen. Ganz schnell wurde den ehrenwerten Anwesenden klar, dass wir das auch irgendwie besser können müssen, und das ein zentrales „Serverrack“ inmitten des Nobreakspace viele Vorteile mit sich bringen könnte und per se eigentlich eine tolle Idee ist und eine obligatorische Mission in Sachen digitaler Selbstbestimmung darstellt.
+
+Von den wilden ersten Träumen eines fliegenden Serverparks bis zum letzendlich entstanden Objekt manifestierter meisterlicher Handwerkskunst dauerte es dann allerdings noch ein Jahr. Es gab viele verschiedene freudige Erfolge und auch einige äußerst nervenzehrende Momente von Misserfolg, sowohl auf der Soft- wie auf der Hardwareseite und über diese spaßige und spannende 'Reise' wollen wir Euch am 26. August ab 20:00 Uhr im [Nbsp](https://chaotikum.org/hackerspace:nbsp) in der Reihe [Freitalk N8](https://chaotikum.org/projekte:freitalk) erzählen.
+
+Wenn Ihr dann noch nicht genug von dem Thema Kleincomputer haben solltet, können wir uns im Anschluß noch zusammen von spannenden SoC Projekten anderer Leute im Internet inspirieren lassen und darüber diskutieren.
