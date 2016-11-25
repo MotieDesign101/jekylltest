@@ -2,7 +2,8 @@
 layout: post
 title:  "24. Softwerkskammer: Game development with Unreal Engine 4"
 date:   2016-11-02 09:56:00 +0200
-image: swk24.jpg
+image: swk.png
+imagelicense: <a href=https://creativecommons.org/licenses/by/3.0/deed.de>CC BY 3.0</a> Softwerkskammer.
 categories:
 - blog
 tags:

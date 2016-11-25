@@ -2,10 +2,11 @@
 layout: post
 title:  "Freitalk N8: Die Vorratsflaschenspeicherung kommt!"
 date:   2016-05-17 13:22:00 +0200
-categories: 
+categories:
 - blog
 tags:
 - freitalk
+- icebox
 ---
 
 **Keine Angst vor IceBox, wir speichern nur Matedaten.**

@@ -4,7 +4,7 @@ title: Projekte
 permalink: /projects/
 ---
 <style>
-.thumbnail {
+.projectthumbnail {
     background-color: black;
     width: 200px;
     height: 200px;
@@ -13,10 +13,13 @@ permalink: /projects/
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
+    margin: 20px;
+    padding right: 20px;
+    white-space: nowrap;
+    overflow: hidden;
 }
-
-.transparent{
-  background:rgba(255,255,255,0.5);
+.home {
+    width: 1050px;
 }
 
 .bottom{
@@ -25,6 +28,12 @@ permalink: /projects/
   width:200px;
   height: 50px;
 }
+
+.projectimage {
+  float:left;
+  width:250px;
+  font-size: 0.3cm;
+}
 </style>
 
 <div class="home">
@@ -32,9 +41,9 @@ permalink: /projects/
     {% for post in site.categories['project'] %}
       <li>
         <div class="project">
-          <div class="postimage">
+          <div class="projectimage">
             {% if post.image %}
-              <div class=thumbnail style="background-image: url({{site.url}}/images/thumbnails/{{post.image}});">
+              <div class=projectthumbnail style="background-image: url({{site.url}}/images/thumbnails/{{post.image}});">
                 <div class="transparent bottom">
                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
                 </div>

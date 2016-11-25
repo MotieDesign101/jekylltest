@@ -10,66 +10,31 @@ $(document).ready(function(){
 function spaceopen() {
   //http://nobreakspace.org/status/spaceapi.json
 
-$.get( "http://nobreakspace.org/status/spaceapi.json", function( data ) {
-  console.log(data);
-  if(data.open) {
-    console.log("OPEN");
-    $("#spaceopen").css( "border", "3px solid green" );
-  } else {
-    console.log("CLOSED");
-    $("#spaceopen").css( "border", "3px solid red" );
-  }
-});
+  $.get( "http://nobreakspace.org/status/spaceapi.json", function( data ) {
+    console.log(data);
+    if(data.open) {
+      console.log("OPEN");
+      $("#spaceopen").css( "border", "3px solid green" );
+      $("#spaceopen").html("<p>Der nbsp ist offen!</p>");
+    } else {
+      console.log("CLOSED");
+      $("#spaceopen").css( "border", "3px solid red" );
+    }
+  });
 }
 </script>
-<style>
-.thumbnail {
-    background-color: black;
-    width: 200px;
-    height: 200px;
-    display: inline-block; /* makes it fit in like an <img> */
-    background-size: cover; /* or contain */
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.thumbnaillicense {
-  position: absolute;
-  bottom: 0;
-  width:200px;
-  height: 20px;
-}
-
-.transparent {
-  background:rgba(255,255,255,0.5);
-}
-
-.blogpost {
-  overflow:auto;
-}
-
-.postimage {
-  float:left;
-  width:200px;
-  font-size: 0.3cm;
-}
-
-.postpreview {
-  float:right;
-  width:500px;
-}
-
-</style>
 
 <div class="home">
+  <div id="spaceopen">
+
+  </div>
+
   <div class="blog">
     <ul class="post-list">
       {% for post in paginator.posts %}
       {% if post.categories contains 'blog' %}
         <li>
           <div class="blogpost">
-
             <div class="postimage">
               {% if post.image %}
                 <div class=thumbnail style="background-image: url({{site.url}}/images/thumbnails/{{post.image}});">
@@ -92,7 +57,6 @@ $.get( "http://nobreakspace.org/status/spaceapi.json", function( data ) {
               </h2>
               <span>{{ post.excerpt | strip_html}} <a href={{ post.url }}>more...</a></span><p class="tag">{{post.tag}}</p>
             </div>
-
           </div>
         </li>
         {% endif %}
@@ -116,9 +80,5 @@ $.get( "http://nobreakspace.org/status/spaceapi.json", function( data ) {
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-  </div>
-  <div class="right">
-    <div id="spaceopen">
-    </div>
   </div>
 </div>

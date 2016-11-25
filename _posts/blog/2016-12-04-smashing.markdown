@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Freitalk N8: Smashing - Unser neues Dashboard"
+date:   2016-12-04 10:00:00 +0200
+image: lakriz.png
+categories:
+- blog
+tags:
+- swk
+---
+Seit kurzem steht auf der ARM-fARM ein Bildschirm, er ist der Anfang unserer sich hoffentlich prächtig entwikelnden Dashboard-Infrastruktur.
+
+- Link zu Smashing

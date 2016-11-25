@@ -3,3 +3,73 @@ layout: default
 title: Hackerspace
 permalink: /nobreakspace/
 ---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  spaceopen();
+});
+
+function spaceopen() {
+  //http://nobreakspace.org/status/spaceapi.json
+
+  $.get( "http://nobreakspace.org/status/spaceapi.json", function( data ) {
+    console.log(data);
+    if(data.open) {
+      console.log("OPEN");
+      $("#spaceopen").css( "border", "3px solid green" );
+      $("#spaceopen").html("<p>Der nbsp ist offen!</p>");
+    } else {
+      console.log("CLOSED");
+      $("#spaceopen").css( "border", "3px solid red" );
+    }
+  });
+}
+</script>
+<div class="home">
+  <div id="spaceopen">
+
+  </div>
+
+  <div class="blog">
+    <h1>Nobreakspace</h1>
+    Mit das wichtigste Projekt von uns ist der Hackerspace – der Nobreakspace. Meistens ist abends offen. Ob jetzt gerade auf ist, kannst du in der Box auf der rechten Seite sehen.
+
+    Es gibt auch ein regelmäßiges Treffen am Mittwoch ab 18 Uhr, Besucher sind herzlich eingeladen.
+
+    <img src=https://chaotikum.org/_media/hackerspace:nbsp:nbspvonoben.jpg/>
+    <h1>Koordinaten</h1>
+    Chaotikum e.V</br>
+    Mengstraße 6 </br>
+    23552 Lübeck</br>
+    <p>(Postadresse siehe Impressum)</p>
+
+    <p>53,86836N 10,6856OE</p>
+
+    <h1>Kontakt</h1>
+
+    <p>Telefon: 0451 30 500 678</br>
+      FF-VoIP: nbsp@sip.ffhl</p>
+    <h1>Anreisemöglichkeiten</h1>
+      <h2>Mit einem Kraftfahrzeug</h2>
+        <p>Unter [http://www.parken-luebeck.de/parkmoeglichkeiten.html][http://www.parken-luebeck.de/parkmoeglichkeiten.html] finden sich alle Lübecker Parkplätze.</br>
+          Günstig gelegen sind:
+          <ul>
+            <li>[MuK][http://www.parken-luebeck.de/parkmoeglichkeiten/parking-detail/muk.html]</li>
+            <li>[Parkhaus Mitte][http://www.parken-luebeck.de/parkmoeglichkeiten/parking-detail/mitte.html]</li>
+            <li>[St. Marien][http://www.parken-luebeck.de/parkmoeglichkeiten/parking-detail/st-marien.html] inklusive ca. 10 kostenlose Motorradparkplätze</li>
+          </ul>
+      <h2>Mit öffentlichen Verkehrsmitteln</h2>
+        <ul>
+          <li>[Stadttheater](http://www.openstreetmap.org/?mlat=53.86964&mlon=10.68631#map=18/53.86964/10.68631&layers=T) via 3, 4, 10, 11, 12, 21, 30, 31, 32, 39 und 40.</li>
+          <li>[Sandstraße](http://www.openstreetmap.org/?mlat=53.86535&mlon=10.68507#map=18/53.86535/10.68507&layers=T) via 1, 2, 4, 6, 7, 9, 15, 16 und 17.</li>
+          <li>[Wahmstraße](http://www.openstreetmap.org/?mlat=53.86562&mlon=10.68599#map=18/53.86562/10.68599&layers=T) via 5, 10, 11, 21, 31, 32 und 39.</li>
+          <li>[Kohlmarkt](http://www.openstreetmap.org/?mlat=53.86618&mlon=10.68464#map=18/53.86618/10.68464&layers=T) via 1, 2, 5, 6, 7, 9, 15 und 16.</li>
+        </ul>
+      <h2>Ohne Fahrzeug</h2>
+        <p>Zu Fuß sind wir [vom Hauptbahnhof aus in ca. 10 Minuten erreichbar](http://www.openstreetmap.org/directions?engine=mapquest_foot&route=53.8670%2C10.6707%3B53.8684%2C10.6856#map=16/53.8671/10.6785).</p>
+      <h2>Übernachtungsmöglichkeiten</h2>
+        <p>[Günstige Unterkünfte](https://chaotikum.org/hackerspace:unterkuenfte) in der Nähe haben wir auf dieser Seite gesammelt.</p>
+    <h1>Nutzungsordnung</h1>
+      <p>Im Space gilt die [Nutzungsordnung des Nobreakspace](https://chaotikum.org/offizielles:nutzungsordnung).</p>
+  </div>
+</div>

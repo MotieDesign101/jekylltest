@@ -21,10 +21,66 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1050px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+.blog {
+  width: 800px;
+}
+
+.thumbnail {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-block; /* makes it fit in like an <img> */
+    background-size: cover; /* or contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#spaceopen {
+  float:right;
+  width:200px;
+}
+
+.thumbnaillicense {
+  position: absolute;
+  bottom: 0;
+  width:200px;
+  height: 20px;
+}
+
+.transparent {
+  background:rgba(255,255,255,0.5);
+}
+
+.blogpost {
+  overflow:auto;
+}
+
+.postimage {
+  float:left;
+  width:200px;
+  font-size: 0.3cm;
+}
+
+.postpreview {
+  float:right;
+  width:500px;
+}
+
+.project {
+  width: 800px;
+}
+
+.projectbox {
+  float:right;
+  width:220px;
+  background:rgba(230,230,230,0.5);
+}
 
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:

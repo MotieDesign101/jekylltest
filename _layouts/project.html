@@ -1,0 +1,76 @@
+<html>
+
+  {% include head.html %}
+
+    <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="projectbox">
+          {% if page.image %}
+            <div class=projectthumbnail style="background-image: url({{site.url}}/images/thumbnails/{{page.image}}); height: 200px; width: 200px; margin-right: auto; margin-left: auto;  margin-top: 10px;">
+            </div>
+          {% endif %}
+          <div class="project-description" style="width: 200px; margin-right: auto; margin-left: auto;">
+            <p>{{ page.short }}</p>
+            <p><b>Status: </b>{{ page.status }}</p>
+            <p><b>Kontakt</b></p>
+            <ul>
+            {% for human in page.contact %}
+              <li>{{ human }}</li>
+            {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <div class="project">
+          <h1>{{page.title}}</h1>
+            {{page.content}}
+
+          <div class="projectblog">
+            <h1>Aus unserem Blog</h1>
+              <ul class="post-list">
+                {% for post in site.posts %}
+                  {% if post.categories contains 'blog' %}
+                    {% if post.tags contains page.tag %}
+                      <li>
+                        <div class="blogpost">
+                          <div class="postimage">
+                            {% if post.image %}
+                              <div class=thumbnail style="background-image: url({{site.url}}/images/thumbnails/{{post.image}});">
+                                {% if post.imagelicense %}
+                                <div class="thumbnaillicense transparent">
+                                  {{post.imagelicense}}
+                                </div>
+                                {% endif %}
+                              </div>
+                            {% else %}
+                              <div class=thumbnail style="background-image: url({{site.url}}/images/thumbnails/logo.png);"></div>
+                            {% endif %}
+                          </div>
+
+                          <div class="postpreview">
+                            <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
+
+                            <h2>
+                              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+                            </h2>
+                            <span>{{ post.excerpt | strip_html}} <a href={{ post.url }}>more...</a></span><p class="tag">{{post.tag}}</p>
+                          </div>
+                        </div>
+                      </li>
+                      {% endif %}
+                  {% endif %}
+                {% endfor %}
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    </body>
+</html>
