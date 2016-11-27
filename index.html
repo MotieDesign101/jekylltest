@@ -19,14 +19,29 @@ function spaceopen() {
     } else {
       console.log("CLOSED");
       $("#spaceopen").css( "border", "3px solid red" );
+      $("#spaceopen").html("<p>Der nbsp ist geschlossen!</p>");
     }
   });
 }
 </script>
 
 <div class="home">
-  <div id="spaceopen">
+  <div id="about">
+    {{site.description}}
+  </div>
+  <div class="rightsidebar">
+    <div id="spaceopen">
 
+    </div>
+    <div id="sponsors">
+      <b>Sponsoren</b>
+      {% for post in site.categories['sponsors'] %}
+            {% if post.current %}
+            <a href="{{post.url}}"><img src="{{site.url}}/images/thumbnails/{{post.image}}"/></a>
+            {% endif%}
+      {% endfor %}
+      <p>Sowie private Spender.</p>
+    </div>
   </div>
 
   <div class="blog">

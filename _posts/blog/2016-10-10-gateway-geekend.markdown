@@ -2,6 +2,7 @@
 layout: post
 title:  "Gateway Geekend"
 date:   2016-10-10 06:16:00 +0200
+comments: true
 categories:
 - blog
 tags:

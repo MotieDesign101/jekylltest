@@ -2,6 +2,7 @@
 layout: post
 title:  "Frühstück im Hackerspace"
 date:   2013-02-22 19:27:00 +0200
+comments: true
 categories:
 - blog
 tags:

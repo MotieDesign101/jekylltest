@@ -2,6 +2,7 @@
 layout: post
 title:  "Der Hackerspace ist bezogen!"
 date:   2013-03-03 18:42:00 +0200
+comments: true
 categories:
 - blog
 tags:

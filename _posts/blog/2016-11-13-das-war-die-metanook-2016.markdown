@@ -3,6 +3,7 @@ layout: post
 title:  "Das war die MetaNook 2016"
 date:   2016-11-13 15:40:00 +0200
 image: dojo.jpg
+comments: true
 categories:
 - blog
 tags:

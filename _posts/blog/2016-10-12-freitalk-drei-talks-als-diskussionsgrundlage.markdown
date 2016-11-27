@@ -3,6 +3,7 @@ layout: post
 title:  "Freitalk N8: Drei Talks als Diskussionsgrundlage"
 date:   2016-10-12 10:03:00 +0200
 image: lakriz.png
+comments: true
 categories:
 - blog
 tags:

@@ -3,6 +3,7 @@ layout: post
 title:  "Herbstspieletag im Nobreakspace"
 date:   2016-10-08 13:50:00 +0200
 image: games.jpg
+comments: true
 categories:
 - blog
 tags:

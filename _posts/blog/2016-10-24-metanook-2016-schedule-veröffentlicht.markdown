@@ -3,6 +3,7 @@ layout: post
 title:  "MetaNook 2016: Schedule veröffentlicht"
 date:   2016-10-12 10:03:00 +0200
 image: audimax.png
+comments: true
 categories:
 - blog
 tags:

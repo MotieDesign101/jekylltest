@@ -2,6 +2,7 @@
 layout: post
 title:  "5 Tricks um auf dem Laufenden zu bleiben"
 date:   2016-10-26 08:31:00 +0200
+comments: true
 categories:
 - blog
 tags:

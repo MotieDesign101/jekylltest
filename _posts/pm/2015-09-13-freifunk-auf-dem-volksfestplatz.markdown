@@ -11,7 +11,7 @@ Nur einen Tag nachdem die Erstaufnahmeinrichtung auf dem Volksfestplatz in Betri
 
 Von der Garage der Familie Knüfermann senden wir mit einer Ubiquiti Nanostation M2 auf den Platz, wo ein Ubiquiti UniFi AP LongRange das Signal erweitert. Schon wenige Minuten nach der Inbetriebnahme waren über 70 Nutzer über die beiden Knoten in dem Freifunk-Netz angemeldet. Die ehrenamtlich arbeitenden Freifunker danken dem Anwohner für den Internetzugang und hoffen natürlich auf ganz viele Nachahmer überall in Lübeck. Ebenso gilt dem Betreiber der Erstaufname, dem DRK, welches schnell und unbürokratisch kooperiert hat, sowie den Bewohnern der Erstaufnahme, die beim Aufbau geholfen haben und so freundlich waren arabische Hinweisschilder zu erstellen, ein großer Dank.
 
-Wer einen Freifunk-Router für Flüchtlinge aufstellen kann und möchte, kann sich an refugees@lubeck.freifunk.net wenden oder auf unserer Website unter (luebeck.freifunk.net/mitmachen)[https://luebeck.freifunk.net/mitmachen.html] informieren.
+Wer einen Freifunk-Router für Flüchtlinge aufstellen kann und möchte, kann sich an refugees@lubeck.freifunk.net wenden oder auf unserer Website unter [luebeck.freifunk.net/mitmachen](https://luebeck.freifunk.net/mitmachen.html) informieren.
 
 Um unsere Arbeit fortführen zu können benötigen wir allerdings finanzielle Mittel um Router und Kabel zu kaufen, daher bitten und freuen uns um Spenden.
 

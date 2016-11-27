@@ -5,20 +5,22 @@
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size:   13px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
+$chaotikum-color:  #e67206;
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      $chaotikum-color;
 
-$grey-color:       #828282;
+
+$grey-color:       $chaotikum-color;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark:  darken($grey-color, 5%);
 
 // Width of the content area
 $content-width:    1050px;
@@ -41,7 +43,7 @@ $on-laptop:        800px;
     position: relative;
 }
 
-#spaceopen {
+.rightsidebar {
   float:right;
   width:200px;
 }
@@ -80,6 +82,13 @@ $on-laptop:        800px;
   float:right;
   width:220px;
   background:rgba(230,230,230,0.5);
+}
+
+#about {
+  background:rgba(230,230,230,0.5);
+  margin: 5px;
+  padding: 5px;
+
 }
 
 // Minima also includes a mixin for defining media queries.

@@ -4,6 +4,7 @@ title:  "25 Softwerkskammer"
 date:   2016-11-24 19:04:00 +0200
 image: swk.png
 imagelicense: <a href=https://creativecommons.org/licenses/by/3.0/deed.de>CC BY 3.0</a> Softwerkskammer.
+comments: true
 categories:
 - blog
 tags:

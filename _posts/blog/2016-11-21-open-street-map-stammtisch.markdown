@@ -4,6 +4,7 @@ title:  "Open Street Map Stammtisch"
 date:   2016-11-21 08:07:00 +0200
 image: osm.png
 imagelicense: <a href=https://creativecommons.org/licenses/by-sa/2.0/>CC BY SA 2.0</a>, <a href=https://wiki.openstreetmap.org/wiki/File:Logo_Luebeck.svg>OSM Lübeck</a>.
+comments: true
 categories:
 - blog
 tags:

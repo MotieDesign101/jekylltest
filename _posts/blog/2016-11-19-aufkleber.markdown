@@ -2,6 +2,7 @@
 layout: post
 title:  "Aufkleber"
 date:   2016-11-19 14:00:00 +0200
+comments: true
 categories:
 - blog
 tags:

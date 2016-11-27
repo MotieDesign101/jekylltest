@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Chaotikum.org
 email: vostand@chaotikum.org
-description: Willkommen beim Chaotikum e.V., wir beschäftigen uns kreativ mit Technik und ihrer Auswirkungen auf die Gesellschaft und engagieren uns eigenverantwortlich und auf unterschiedliche Weise für Informations- und Kommunikationsfreiheit. Wir treffen uns, um an diversen Projekten zu arbeiten, über Themen zu reden, die uns beschäftigen, und vor allem um Spaß zu haben. Jeder kann gerne vorbeikommen! Du kannst hier schauen, ob gerade jemand im Hackerspace, dem Nobreakspace (Nbsp), ist. Mittwochabends treffen wir uns zum wöchentlichen Lübecker Chaostreff, dem perfekten Zeitpunkt, um einfach mal rein zu schnuppern. Wir freuen uns auf neue Gesichter!
+description: Willkommen beim Chaotikum e.V., wir beschäftigen uns kreativ mit Technik und ihrer Auswirkungen auf die Gesellschaft und engagieren uns eigenverantwortlich und auf unterschiedliche Weise für Informations- und Kommunikationsfreiheit.
+descriptionlong: Willkommen beim Chaotikum e.V., wir beschäftigen uns kreativ mit Technik und ihrer Auswirkungen auf die Gesellschaft und engagieren uns eigenverantwortlich und auf unterschiedliche Weise für Informations- und Kommunikationsfreiheit. Jeden Mittwoch ab 18:00 Uhr ist Chaostreff im <a href="/nobreakspace">Hackerspace</a>, schau doch einfach mal vorbei.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: ""
 twitter_username: Chaotikum_eV
@@ -32,7 +33,7 @@ excerpt_separator: <!--more-->
 image: "image.html"
 wikiimage: "https://chaotikum.org/_media"
 ccbync: "<a href='https://creativecommons.org/licenses/by-nc/4.0/de/'>CC BY NC</a>"
-ccbync: "<a href='https://creativecommons.org/licenses/by-sa/3.0/de/'>CC BY SA</a>"
+ccbysa: "<a href='https://creativecommons.org/licenses/by-sa/3.0/de/'>CC BY SA</a>"
 # Build settings
 markdown: kramdown
 theme: minima
