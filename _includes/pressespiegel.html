@@ -1,0 +1,14 @@
+<div id="Pressespiegel">
+  <h1>Pressespiegel</h1>
+  <p>Artikel über das Chaotikum, über Aktionen an denen das Chaotikum beteiligt ist und über Freifunk in Lübeck.</p>
+  <!-- hier fehlt eine Schleife mit Zählervariable über Jahre... -->
+    <ul>
+      {% for post in site.press reversed %}
+        {% if post.link%}
+          <li>{{post.publication}} {{ post.date | date: '%d.%m.%Y' }}: <i><a href="{{post.link}}">{{post.title}}</a></i></li>
+        {% else %}
+          <li>{{post.publication}} {{ post.date | date: '%d.%m.%Y' }}: <i>{{post.title}}</i></li>
+        {% endif%}
+      {% endfor %}
+    </ul>
+</div>
