@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Funkwellen und Ostseewellen"
+date: 2016-06-09 00:00:00 +0200
+publication: "luebeck.freifunk.net"
+link: https://luebeck.freifunk.net/2016/06/09/funkwellen-und-ostseewellen.html
+categories:
+- press
+---

@@ -38,25 +38,23 @@ permalink: /projects/
 
 <div class="home">
   <ul class="post-list">
-    {% for post in site.categories['project'] %}
+    {% assign sorted_projects = (site.projects | sort: 'date') %}
+    {% for project in sorted_projects reversed %}
       <li>
         <div class="project">
           <div class="projectimage">
-            {% if post.image %}
-              <div class=projectthumbnail style="background-image: url({{site.url}}/images/thumbnails/{{post.image}});">
+            {% if project.image %}
+              <div class=projectthumbnail style="background-image: url({{site.url}}/images/thumbnails/{{project.image}});">
                 <div class="transparent bottom">
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+                  <a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.name | escape }}</a>
                 </div>
               </div>
             {% else %}
-              <div class=thumbnail style="background-image: url({{site.url}}/images/thumbnails/logo.png);"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></div>
+              <div class=thumbnail style="background-image: url({{site.url}}/images/thumbnails/logo.png);"><a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.name | escape }}</a></div>
             {% endif %}
           </div>
         </div>
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </div>

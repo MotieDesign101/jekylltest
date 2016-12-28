@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Studierende laden zur „Nacht des freien Wissens“"
+date:   2016-11-09 00:00:00 +0200
+publication: "Lübecker Nachrichten"
+categories:
+- press
+---

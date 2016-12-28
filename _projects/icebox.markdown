@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Icebox"
+name:  "Icebox"
 date:   2016-06-20 00:00:00 +0200
 image: icebox.jpg
 tag: icebox

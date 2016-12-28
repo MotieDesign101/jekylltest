@@ -30,7 +30,20 @@ kontakt: Matthias Schiffer
 paginate: 10
 excerpt_separator: <!--more-->
 
+#collections are like posts, just withou dates and more flexible
+collections:
+ projects:
+  output: true
+  permalink: project/:path/
+ press:
+   output: false
+ sponsors:
+   output: false
+
+#Defining reusable html templates for the webste that are places in the _includes folder
 image: "image.html"
+pressespiegel: "pressespiegel.html"
+
 wikiimage: "https://chaotikum.org/_media"
 ccbync: "<a href='https://creativecommons.org/licenses/by-nc/4.0/de/'>CC BY NC</a>"
 ccbysa: "<a href='https://creativecommons.org/licenses/by-sa/3.0/de/'>CC BY SA</a>"

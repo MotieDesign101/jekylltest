@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Neue Sonderausstellung im Buddenbrookhaus"
+date: 2016-06-11 00:00:00 +0200
+publication: "hl-live.de"
+link: https://www.hl-live.de/aktuell/text.php?id=107282
+categories:
+- press
+---

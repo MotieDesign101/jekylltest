@@ -27,7 +27,7 @@ function spaceopen() {
 
 <div class="home">
   <div id="about">
-    {{site.description}}
+    {{site.descriptionlong}}
   </div>
   <div class="rightsidebar">
     <div id="spaceopen">
@@ -35,9 +35,9 @@ function spaceopen() {
     </div>
     <div id="sponsors">
       <b>Sponsoren</b>
-      {% for post in site.categories['sponsors'] %}
-            {% if post.current %}
-            <a href="{{post.url}}"><img src="{{site.url}}/images/thumbnails/{{post.image}}"/></a>
+      {% for sponsor in site.sponsors %}
+            {% if sponsor.current %}
+            <a href="{{sponsor.url}}"><img src="{{site.url}}/images/thumbnails/{{sponsor.image}}"/></a>
             {% endif%}
       {% endfor %}
       <p>Sowie private Spender.</p>

@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Nacht des Freien wissens."
+date: 2016-11-07 00:00:00 +0200
+publication: "hl-live.de"
+link: https://www.hl-live.de/aktuell/textstart.php?id=110363
+categories:
+- press
+---

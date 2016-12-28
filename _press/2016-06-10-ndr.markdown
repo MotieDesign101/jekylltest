@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Die Manns auf der Flucht: Heimweh auf Papier"
+date: 2016-06-11 00:00:00 +0200
+publication: "ndr.de"
+link: https://www.ndr.de/kultur/kunst/schleswig-holstein/Buddenbrockhaus-zeigt-die-Manns-im-Exil,fluchexilfamiliemann100.html
+categories:
+- press
+---

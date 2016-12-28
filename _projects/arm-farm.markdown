@@ -1,13 +1,15 @@
 ---
 layout: project
-title:  "Freitalk N8"
+name:  "fARM"
 date:   2016-01-01 00:00:00 +0200
-image: lakriz.png
+image: games.jpg
+tag: fARM
 contact:
-- "@TVLuke"
+- "Mirko"
+- "Bo"
 status: produktiv
 categories:
 - project
 tags:
-- freitalk
+- fARM
 ---
