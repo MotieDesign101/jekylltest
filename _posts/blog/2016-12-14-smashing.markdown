@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Freitalk N8: Smashing - Unser neues Dashboard"
+date:   2016-12-14 10:00:00 +0200
+image: lakriz.png
+comments: true
+categories:
+- blog
+tags:
+- swk
+---
+Auf der ARM-fARM steht seit einiger Zeit ein Bildschirm. Aber warum? Dies ist unser neues Dashboard. Das Dashboard soll es ermöglichen Informationen im [Nobreakspace](http://chaotikum.org/hackerspace:nbsp) auf Widgets darzustellen. Aktuell sieht der Betrachter darauf Widgets welche Uhrzeit, Getränkebestand und Traffic im nbsp-Netz anzeigen. Aber so ein Dashboard macht natürlich erst Spaß, wenn wir alle Widgets draufschmeißen können.
+
+<!--more-->
+{% include {{site.image}} base=site.wikiimage url="hackerspace:dashsamsh.jpg" caption="Das neue Dashboard im Nobreakspace" width="655" copyr=site.ccbync %}
+
+Daher wird Nils, der das Dashboard vor einigen Wochen eingerichtet hat, uns im Rahmen des [Freitalks](http://chaotikum.org/projekte:freitalk) am Freitag den 16. Dezember ab 19:00 Uhr zeigen, wie man neue Widgets schreibt und wir werden den Abend damit verbringen alberne und/oder praktische Widget-Ideen auszuprobieren.
+
+Wer sich vorbereiten möchte schaut sich am besten das [Github von Smashing](https://github.com/SmashingDashboard/smashing) an und spielt ein wenig damit. In deren [Wiki](https://github.com/SmashingDashboard/smashing/wiki) finden sich Anleitungen wie z.B. diese [Installationsanweisung](https://github.com/SmashingDashboard/smashing/wiki/Dashing-Workshop) und haufenweise Beispielwidgets.
