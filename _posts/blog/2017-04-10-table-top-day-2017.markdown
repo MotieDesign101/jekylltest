@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Table Top Day 2017"
+date:   2017-04-10 10:00:00 +0200
+image: games.jpg
+comments: true
+categories:
+- blog
+tags:
+- tabletopday
+---
+**Nach dem großen Erfolg der letzten Table Top Days lassen wir uns natürlich nicht lange Bitten und veranstalten auch 2017 wieder den Table Top Day in [unseren Räumen](http://chaotikum.org/hackerspace:nbsp). Dieses Jahr findet der Table Top Day am 29. April statt.**
+<!--more-->
+Gespielt werden kann ab 11:00 Uhr bis Open End, Spiele dürfen gerne mitgebracht werden aber ein solider Grundstock wird vorhanden sein.
+
+{% include {{site.image}} base=site.wikiimage url="projekte:tabletop:2016-04-30_17.57.43.jpg" caption="Eine Runde Istambul." width="655" copyr=site.ccbync %}
+
+Kommen kann natürlich auch jeder, der nicht spielen möchte, der Space ist wie immer für alle offen, aber man muss eben damit rechnen, dass mehr Menschen da sind und das diese laut sind.
+
+{% include {{site.image}} base=site.wikiimage url="projekte:tabletop:2016-04-30_13.08.49.jpg" caption="Für Spiele war gesorgt." width="655" copyr=site.ccbync %}
+
+Wir freuen uns auf euch. Bringt Spaß und Brettspiele mit!

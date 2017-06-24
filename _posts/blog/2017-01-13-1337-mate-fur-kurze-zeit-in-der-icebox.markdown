@@ -8,7 +8,7 @@ categories:
 tags:
 - mate
 ---
-Jetzt wo der große Mate-Test zuende ist, wird es die „Reste“ in unserem Kühlschrank zu kaufen geben. Den Anfang macht 1337-Mate. Die Mate ist ab jetzt bis sie aufgebraucht ist zum üblichen Preis zu erwerben.
+**Jetzt wo der große Mate-Test zuende ist, wird es die „Reste“ in unserem Kühlschrank zu kaufen geben. Den Anfang macht 1337-Mate. Die Mate ist ab jetzt bis sie aufgebraucht ist zum üblichen Preis zu erwerben.**
 
 <!--more-->
 {% include {{site.image}} base=site.wikiimage url="hackerspace:getraenke:leetm13x.png" caption="1337-Mate im Nbsp" width="655" copyr=site.ccbync %}
@@ -25,7 +25,7 @@ Die 200.000. Flasche 1337-Mate wurde im Herbst 2014 abgefüllt. Dennoch: 1337-Ma
 (Alle diese Infos findet man auf der [Website](https://www.1337mate.com/1337mate/unsere-story/))
 
 ***Was ist drin?***
-Wasser, Zucker, Aufguss (Wasser, geröstete Mate-Blätter), Kohlensäure, Zitronensaftkonzentrat, Koffein, Guaranaextraxt, natürliche Aroma.
+**Zutaten:** Wasser, Zucker, Aufguss (Wasser, geröstete Mate-Blätter), Kohlensäure, Zitronensaftkonzentrat, Koffein, Guaranaextraxt, natürliche Aroma.
 
 Die Nährwerte:
 
